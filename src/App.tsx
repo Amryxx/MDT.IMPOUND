@@ -78,10 +78,12 @@ function App() {
 
         {/* Footer */}
         <footer className="mt-10 text-center">
-          <div className="flex items-center justify-center gap-2 text-slate-600">
-            <div className="h-px w-12 bg-card-border" />
-            <span className="text-[10px] font-mono tracking-wider">BY AMRYX</span>
-            <div className="h-px w-12 bg-card-border" />
+          <div className="flex items-center justify-center gap-3">
+            <div className="h-px w-16 bg-primary/40" />
+            <span className="text-base md:text-lg font-mono font-bold tracking-[0.25em] text-white drop-shadow-[0_0_8px_rgba(59,130,246,0.6)]">
+              BY AMRYX
+            </span>
+            <div className="h-px w-16 bg-danger/40" />
           </div>
         </footer>
       </div>
