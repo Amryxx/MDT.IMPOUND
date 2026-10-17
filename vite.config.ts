@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/MDT.IMPOUND/', // <--- تمت إضافة هذا السطر لضبط مسار GitHub Pages
   plugins: [react()],
   resolve: {
     alias: {
